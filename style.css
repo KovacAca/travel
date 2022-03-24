@@ -25,6 +25,25 @@ a {
   text-decoration: none;
   transition: var(--transition);
 }
+button {
+  padding: 10px 20px;
+  background: transparent;
+  border: 2px solid var(--white);
+  color: var(--white);
+  text-transform: uppercase;
+  font-weight: 500;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+button:hover {
+  background: var(--white);
+  color: blue;
+  font-weight: 700;
+}
+button:active {
+  transform: scale(101%);
+}
 /******************
 topbar
 ******************/
@@ -73,6 +92,28 @@ nav ul li a {
 }
 nav ul li a:hover {
   color: var(--accents);
+}
+
+/******************
+header
+******************/
+header {
+  background: url(img/header.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 180px;
+  color: var(--white);
+}
+header h1 {
+  font-size: 3.5rem;
+}
+header p {
+  font-size: 1.3rem;
+  margin: 15px 0;
 }
 
 /******************
