@@ -31,5 +31,13 @@
     </ul>
     </div>
   </nav>
+
+  <!-- icons -->
+  <section class="icons">
+    <a href=""><i class="fab fa-facebook-square"></i></a>
+    <a href=""><i class="fab fa-youtube-square"></i></a>
+    <a href=""><i class="fab fa-instagram"></i></a>
+    <a href=""><i class="fab fa-pinterest"></i></a>
+  </section>
   
  

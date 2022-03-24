@@ -93,7 +93,6 @@ nav ul li a {
 nav ul li a:hover {
   color: var(--accents);
 }
-
 /******************
 header
 ******************/
@@ -114,6 +113,32 @@ header h1 {
 header p {
   font-size: 1.3rem;
   margin: 15px 0;
+}
+/******************
+icons
+******************/
+.icons {
+  width: 45px;
+  background: var(--white);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  border: 1px solid var(--accents);
+  position: fixed;
+  top: 300px;
+  left: 0;
+}
+.icons a {
+  padding: 5px;
+}
+.icons i {
+  font-size: 2rem;
+}
+.icons a:nth-child(2) i,
+.icons a:nth-child(4) i {
+  color: red;
 }
 
 /******************
